@@ -1,24 +1,11 @@
 This repo is a collection of resources associated with the learning roadmap for devops engineers defined at roadmap.sh/devops (also shown at the bottom of this page).
 
-<details><summary>Programming Language</summary><blockquote>
-<details><summary> <h3 style="margin-top:0">Python</h3> </summary><blockquote>
-content
-<details><summary style="color:white">  </summary><blockquote>
-~~~
-<ul>
-    <li>test</li>
-    <li>test</li>
-</ul>
-~~~
-</blockquote></details>
-</details>
-</details>
-
 ---
 
-## Programming language
-
-### Python
+<details><summary> <h2>Programming Language</h2> </summary><blockquote>
+<details><summary> <h3>Python</h3> </summary><blockquote>
+</blockquote></details>
+</details>
 
 ---
 
