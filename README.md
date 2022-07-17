@@ -32,7 +32,6 @@ This repo is a collection of resources associated with the learning roadmap for 
     </details>
 </details>
 
----
 
 <details><summary> <h2>Managing Servers</h2> </summary><blockquote>
     <details open><summary> <h3>Operating Systems</h3> </summary><blockquote>
