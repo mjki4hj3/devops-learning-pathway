@@ -1,9 +1,9 @@
-This repo is a collection of resources associated with the learning roadmap for devops engineers defined at roadmap.sh/devops (also shown at the bottom of this page). 
----
+## This repo is a collection of resources associated with the learning roadmap for devops engineers defined at roadmap.sh/devops (also shown at the bottom of this page).
+
 <details><summary> root </summary><blockquote>
 <details><summary> nest1 </summary><blockquote>
 content
-<details><summary> nest2 </summary><blockquote>
+<details><summary style="color:white"> nest2 </summary><blockquote>
 ~~~
 <ul>
     <li>test</li>
@@ -14,36 +14,54 @@ content
 </details>
 </details>
 
-
 ---
 
 # Programming language
+
 ### Python
+
 ---
 
 # Understand different OS Concepts
+
 ### Startup Management (initd)
+
 ### Service Management (systemd)
+
 ### I/O Management
+
 ### Virtualization
+
 ### Memory/Storage
+
 ### File Systems
+
 ### Process Management
+
 ### Threads and Concurrency
+
 ### Sockets
+
 ### POSIX Basics
+
 ### Network Concepts
+
 ---
 
 # Managing Servers
 
 ## Operating Systems
+
 ### Ubuntu
 
 ## Terminal
+
 ### Bash Scripting
+
 ### Vim
+
 ### System Performance
+
 - nmon
 - iotstat
 - sdar
@@ -54,7 +72,9 @@ content
 - uname
 - df
 - history
+
 ### Network
+
 - nmap
 - tcpdump
 - ping
@@ -65,13 +85,17 @@ content
 - dig
 - iptables
 - netstat
+
 ### Process Monitoring
+
 - ps
 - top
 - htop
 - atop
 - isof
+
 ### Text Manipulation Tools
+
 - awk
 - sed
 - grep
@@ -87,70 +111,103 @@ content
 - fgrep
 - wc
 
---- 
+---
+
 # Networking, Security and Protocols
+
 ### HTTP
+
 ### HTTPS
+
 ### FTP
+
 ### SSL/TLS
+
 ### SSH
+
 ### Port Forwading
 
 ---
-# What is and how to setup a ___
+
+# What is and how to setup a \_\_\_
+
 ### Web Server
+
 - Nginx
 - Istio
-  
+
 ### Reverse Proxy
+
 ### Caching Server
+
 ### Forward Proxy
+
 ### Load Balancer
+
 ### Firewall
 
 ---
+
 # Infrastructure as Code
+
 ## Containers
+
 ### Docker
 
 ## Configuration Management
+
 ### Ansible
+
 ### Chef
+
 ### Puppet
 
 ## Container Orchestration
+
 ### Kubernetes
+
 ### Docker Swarm
 
 ## Infrastructure Provisioning
+
 ### Terraform
 
 ---
 
 # CI/CD Tools
+
 ### Gitlab CI
 
 ---
+
 # Monitoring
 
 ## Infrastructure Monitoring
+
 ### Prometheus
+
 ### Grafana
 
 ## Application Monitoring
+
 ### Jaeger
+
 ### Bew Relic
 
 ## Logs Management
+
 ### Elastic Stack
 
 ---
 
-# Cloud 
-## AWS
-## GCP
-## Design Patterns
-[Cloud architecture design patterns](http://bit.ly/cloud-arch-patterns)
+# Cloud
 
+## AWS
+
+## GCP
+
+## Design Patterns
+
+[Cloud architecture design patterns](http://bit.ly/cloud-arch-patterns)
 
 <img src="img/devops-roadmap.png">
