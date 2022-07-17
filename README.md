@@ -1,9 +1,9 @@
-## This repo is a collection of resources associated with the learning roadmap for devops engineers defined at roadmap.sh/devops (also shown at the bottom of this page).
+This repo is a collection of resources associated with the learning roadmap for devops engineers defined at roadmap.sh/devops (also shown at the bottom of this page).
 
-<details><summary> root </summary><blockquote>
-<details><summary> nest1 </summary><blockquote>
+<details><summary>Programming Language</summary><blockquote>
+<details><summary> <h3 style="margin-top:0">Python</h3> </summary><blockquote>
 content
-<details><summary style="color:white"> nest2 </summary><blockquote>
+<details><summary style="color:white">  </summary><blockquote>
 ~~~
 <ul>
     <li>test</li>
@@ -16,13 +16,13 @@ content
 
 ---
 
-# Programming language
+## Programming language
 
 ### Python
 
 ---
 
-# Understand different OS Concepts
+## OS Concepts
 
 ### Startup Management (initd)
 
@@ -48,11 +48,11 @@ content
 
 ---
 
-# Managing Servers
+## Managing Servers
 
-## Operating Systems
+### Operating Systems
 
-### Ubuntu
+#### Ubuntu
 
 ## Terminal
 
