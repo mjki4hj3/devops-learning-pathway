@@ -5,7 +5,6 @@ This repo is a collection of resources associated with the learning roadmap for 
 </blockquote></details>
 </details>
 
----
 
 <details><summary> <h2>OS Concepts</h2> </summary><blockquote>
     <details><summary> <h3>Startup Management (initd)</h3> </summary><blockquote>
@@ -101,7 +100,6 @@ This repo is a collection of resources associated with the learning roadmap for 
     </details>
 </details>
 
----
 
 <details><summary> <h2>Networking, Security and Protocols</h2> </summary><blockquote>
     <details><summary> <h3>HTTP</h3> </summary><blockquote>
@@ -118,7 +116,6 @@ This repo is a collection of resources associated with the learning roadmap for 
     </details>
 </details>
 
----
 
 <details><summary> <h2>How To Setup A ___ </h2> </summary><blockquote>
     <details><summary> <h3>Web Server</h3> </summary><blockquote>
@@ -135,7 +132,6 @@ This repo is a collection of resources associated with the learning roadmap for 
     </details>
 </details>
 
----
 
 <details><summary> <h2>Infrastructure As Code</h2> </summary><blockquote>
     <details><summary> <h3>Containers</h3> </summary><blockquote>
@@ -163,14 +159,12 @@ This repo is a collection of resources associated with the learning roadmap for 
 
 </details>
 
----
 
 <details><summary> <h2>CI/CD Tools</h2> </summary><blockquote>
     <details><summary> <h3>Gitlab CI</h3> </summary><blockquote>
     </details>
 </details>
 
----
 
 <details><summary> <h2>Monitoring</h2> </summary><blockquote>
     <details><summary> <h3>Infrastructure Monitoring</h3> </summary><blockquote>
@@ -191,7 +185,6 @@ This repo is a collection of resources associated with the learning roadmap for 
     </details>
 </details>
 
----
 
 <details><summary> <h2>Cloud</h2> </summary><blockquote>
     <details><summary> <h3>AWS</h3> </summary><blockquote>
@@ -203,6 +196,5 @@ This repo is a collection of resources associated with the learning roadmap for 
     </details>
 </details>
 
----
 
 <img src="img/devops-roadmap.png">
