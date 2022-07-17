@@ -1,7 +1,7 @@
-This repo is a collection of resources 
-
-## Programming language
+This repo is a collection of resources associated with the learning roadmap for devops engineers defined at roadmap.sh/devops (also shown at the bottom of this page). 
 ---
+
+# Programming language
 ### Python
 ---
 
