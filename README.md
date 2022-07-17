@@ -1,8 +1,5 @@
 This repo is a collection of resources associated with the learning roadmap for devops engineers defined at roadmap.sh/devops (also shown at the bottom of this page).
 
-[folder](www.google.com)
----
-
 <details><summary> <h2>Programming Language</h2> </summary><blockquote>
 <details><summary> <h3>Python</h3> </summary><blockquote>
 </blockquote></details>
@@ -37,166 +34,176 @@ This repo is a collection of resources associated with the learning roadmap for 
 
 ---
 
-## Managing Servers
-
-### Operating Systems
-
-#### Ubuntu
-
-## Terminal
-
-### Bash Scripting
-
-### Vim
-
-### System Performance
-
-- nmon
-- iotstat
-- sdar
-- vmstat
-- strace
-- dtrace
-- systemtap
-- uname
-- df
-- history
-
-### Network
-
-- nmap
-- tcpdump
-- ping
-- mtr
-- traceroute
-- dig
-- airmon
-- dig
-- iptables
-- netstat
-
-### Process Monitoring
-
-- ps
-- top
-- htop
-- atop
-- isof
-
-### Text Manipulation Tools
-
-- awk
-- sed
-- grep
-- sort
-- uniq
-- cat
-- cut
-- echo
-- fmt
-- tr
-- nl
-- egrep
-- fgrep
-- wc
-
----
-
-# Networking, Security and Protocols
-
-### HTTP
-
-### HTTPS
-
-### FTP
-
-### SSL/TLS
-
-### SSH
-
-### Port Forwading
+<details><summary> <h2>Managing Servers</h2> </summary><blockquote>
+    <details open><summary> <h3>Operating Systems</h3> </summary><blockquote>
+        <details><summary>Ubuntu</summary>
+        </details>
+    </details>
+    <details open><summary> <h3>Terminal</h3> </summary><blockquote>
+        <details><summary>Bash Scripting</summary>
+        </details>
+        <details><summary>Vim</summary>
+        </details>
+        <details><summary>System Performance</summary>
+            <ul>
+                <li>nmon</li>
+                <li>iotstat</li>
+                <li>sdar</li>
+                <li>vmstat</li>
+                <li>strace</li>
+                <li>dtrace</li>
+                <li>systemtap</li>
+                <li>uname</li>
+                <li>df</li>
+                <li>history</li>
+            </ul>
+        </details>
+        <details><summary>Network</summary>
+            <ul>
+                <li>nmap</li>
+                <li>tcpdump</li>
+                <li>ping</li>
+                <li>mtr</li>
+                <li>traceroute</li>
+                <li>dig</li>
+                <li>airmon</li>
+                <li>dig</li>
+                <li>iptables</li>
+                <li>netstat</li>
+            </ul>
+        </details>
+        <details><summary>Process Monitoring</summary>
+            <ul>
+                <li>ps</li>
+                <li>top</li>
+                <li>htop</li>
+                <li>atop</li>
+                <li>isof</li>
+            </ul>
+        </details>
+        <details><summary>Text Manipulation Tools</summary>
+            <ul>
+                <li>awk</li>
+                <li>sed</li>
+                <li>grep</li>
+                <li>sort</li>
+                <li>uniq</li>
+                <li>cat</li>
+                <li>cut</li>
+                <li>echo</li>
+                <li>fmt</li>
+                <li>tr</li>
+                <li>nl</li>
+                <li>egrep</li>
+                <li>fgrep</li>
+                <li>wc</li>
+            </ul>
+        </details>
+    </details>
+</details>
 
 ---
 
-# What is and how to setup a \_\_\_
-
-### Web Server
-
-- Nginx
-- Istio
-
-### Reverse Proxy
-
-### Caching Server
-
-### Forward Proxy
-
-### Load Balancer
-
-### Firewall
+<details><summary> <h2>Networking, Security and Protocols</h2> </summary><blockquote>
+    <details><summary> <h3>HTTP</h3> </summary><blockquote>
+    </details>
+    <details><summary> <h3>HTTPS</h3> </summary><blockquote>
+    </details>
+    <details><summary> <h3>FTP</h3> </summary><blockquote>
+    </details>
+    <details><summary> <h3>SSL/TLS</h3> </summary><blockquote>
+    </details>
+    <details><summary> <h3>SSH</h3> </summary><blockquote>
+    </details>
+    <details><summary> <h3>Port Forwading</h3> </summary><blockquote>
+    </details>
+</details>
 
 ---
 
-# Infrastructure as Code
-
-## Containers
-
-### Docker
-
-## Configuration Management
-
-### Ansible
-
-### Chef
-
-### Puppet
-
-## Container Orchestration
-
-### Kubernetes
-
-### Docker Swarm
-
-## Infrastructure Provisioning
-
-### Terraform
+<details><summary> <h2>How To Setup A ___ </h2> </summary><blockquote>
+    <details><summary> <h3>Web Server</h3> </summary><blockquote>
+    </details>
+    <details><summary> <h3>Reverse Proxy</h3> </summary><blockquote>
+    </details>
+    <details><summary> <h3>Caching Server</h3> </summary><blockquote>
+    </details>
+    <details><summary> <h3>Forward Proxy</h3> </summary><blockquote>
+    </details>
+    <details><summary> <h3>Load Balancer</h3> </summary><blockquote>
+    </details>
+    <details><summary> <h3>Firewall</h3> </summary><blockquote>
+    </details>
+</details>
 
 ---
 
-# CI/CD Tools
+<details><summary> <h2>Infrastructure As Code</h2> </summary><blockquote>
+    <details><summary> <h3>Containers</h3> </summary><blockquote>
+        <details><summary><h4>Docker</h4></summary>
+        </details>
+    </details>
+    <details><summary> <h3>Configuration Management</h3> </summary><blockquote>
+        <details><summary><h4>Ansible</h4></summary>
+        </details>
+        <details><summary><h4>Chef</h4></summary>
+        </details>
+        <details><summary><h4>Puppet</h4></summary>
+        </details>
+    </details>
+    <details><summary> <h3>Container Orchestration</h3> </summary><blockquote>
+        <details><summary><h4>Kubernetes</h4></summary>
+        </details>
+        <details><summary><h4>Docker Swarm</h4></summary>
+        </details>
+    </details>
+    <details><summary> <h3>Infrastructure Provisioning</h3> </summary><blockquote>
+        <details><summary><h4>Terraform</h4></summary>
+        </details>
+    </details>
 
-### Gitlab CI
+</details>
 
 ---
 
-# Monitoring
-
-## Infrastructure Monitoring
-
-### Prometheus
-
-### Grafana
-
-## Application Monitoring
-
-### Jaeger
-
-### Bew Relic
-
-## Logs Management
-
-### Elastic Stack
+<details><summary> <h2>CI/CD Tools</h2> </summary><blockquote>
+    <details><summary> <h3>Gitlab CI</h3> </summary><blockquote>
+    </details>
+</details>
 
 ---
 
-# Cloud
+<details><summary> <h2>Monitoring</h2> </summary><blockquote>
+    <details><summary> <h3>Infrastructure Monitoring</h3> </summary><blockquote>
+        <details><summary> <h3>Prometheus</h3> </summary><blockquote>
+        </details>
+        <details><summary> <h3>Grafana</h3> </summary><blockquote>
+        </details>
+    </details>
+    <details><summary> <h3>Infrastructure Monitoring</h3> </summary><blockquote>
+        <details><summary> <h3>Jaeger</h3> </summary><blockquote>
+        </details>
+        <details><summary> <h3>New Relic</h3> </summary><blockquote>
+        </details>
+    </details>
+    <details><summary> <h3>Logs Management</h3> </summary><blockquote>
+        <details><summary> <h3>Elastic Stack</h3> </summary><blockquote>
+        </details>
+    </details>
+</details>
 
-## AWS
+---
 
-## GCP
+<details><summary> <h2>Cloud</h2> </summary><blockquote>
+    <details><summary> <h3>AWS</h3> </summary><blockquote>
+    </details>
+    <details><summary> <h3>GCP</h3> </summary><blockquote>
+    </details>
+    <details><summary> <h3>Design Patterns</h3></summary><blockquote>
+        <a href="http://bit.ly/cloud-arch-patterns">Cloud Architecht Patterns</a>
+    </details>
+</details>
 
-## Design Patterns
-
-[Cloud architecture design patterns](http://bit.ly/cloud-arch-patterns)
+---
 
 <img src="img/devops-roadmap.png">
