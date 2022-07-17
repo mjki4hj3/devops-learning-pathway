@@ -1,5 +1,6 @@
 This repo is a collection of resources associated with the learning roadmap for devops engineers defined at roadmap.sh/devops (also shown at the bottom of this page).
 
+[folder](www.google.com)
 ---
 
 <details><summary> <h2>Programming Language</h2> </summary><blockquote>
@@ -9,29 +10,30 @@ This repo is a collection of resources associated with the learning roadmap for 
 
 ---
 
-## OS Concepts
-
-### Startup Management (initd)
-
-### Service Management (systemd)
-
-### I/O Management
-
-### Virtualization
-
-### Memory/Storage
-
-### File Systems
-
-### Process Management
-
-### Threads and Concurrency
-
-### Sockets
-
-### POSIX Basics
-
-### Network Concepts
+<details><summary> <h2>OS Concepts</h2> </summary><blockquote>
+    <details><summary> <h3>Startup Management (initd)</h3> </summary><blockquote>
+    </details>
+    <details><summary> <h3>Service Management (systemd)</h3> </summary><blockquote>
+    </details>
+    <details><summary> <h3>I/O Management</h3> </summary><blockquote>
+    </details>
+    <details><summary> <h3>Virtualization</h3> </summary><blockquote>
+    </details>
+    <details><summary> <h3>Memory/Storage</h3> </summary><blockquote>
+    </details>
+    <details><summary> <h3>File Systems</h3> </summary><blockquote>
+    </details>
+    <details><summary> <h3>Process Management</h3> </summary><blockquote>
+    </details>
+    <details><summary> <h3>Threads and Concurrency</h3> </summary><blockquote>
+    </details>
+    <details><summary> <h3>Sockets</h3> </summary><blockquote>
+    </details>
+    <details><summary> <h3>POSIX Basics</h3> </summary><blockquote>
+    </details>
+    <details><summary> <h3>Network Concepts</h3> </summary><blockquote>
+    </details>
+</details>
 
 ---
 
