@@ -1,4 +1,4 @@
-This repo is a collection of resources associated with the learning roadmap for devops engineers defined at roadmap.sh/devops (also shown at the bottom of this page).
+This repo is a collection of resources associated with the learning roadmap for devops engineers defined at [roadmap.sh/devops](roadmap.sh/devops) (also shown at the bottom of this page).
 
 <details><summary> <h2>Programming Language</h2> </summary><blockquote>
 <details><summary> <h3>Python</h3> </summary><blockquote>
