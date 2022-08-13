@@ -40,7 +40,7 @@ This repo is a collection of resources associated with the learning roadmap for 
     <details open><summary> <h3>Terminal</h3> </summary><blockquote>
         <details><summary>Bash Scripting</summary>
         </details>
-        <details><summary>Vim</summary>
+        <details><summary><a href="https://github.com/mjki4hj3/devops-learning-pathway/blob/master/Managing%20Servers/Terminal/Vim.md">Vim</a></summary>
         </details>
         <details><summary>System Performance</summary>
             <ul>
