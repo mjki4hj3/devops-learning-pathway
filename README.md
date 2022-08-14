@@ -70,14 +70,7 @@ This repo is a collection of resources associated with the learning roadmap for 
                 <li>netstat</li>
             </ul>
         </details>
-        <details><summary>Process Monitoring</summary>
-            <ul>
-                <li>ps</li>
-                <li>top</li>
-                <li>htop</li>
-                <li>atop</li>
-                <li>isof</li>
-            </ul>
+        <details><summary><a href="https://github.com/mjki4hj3/devops-learning-pathway/blob/master/Managing%20Servers/Terminal/process-monitoring.md">Process Monitoring</a></summary>
         </details>
         <details><summary>Text Manipulation Tools</summary>
             <ul>
