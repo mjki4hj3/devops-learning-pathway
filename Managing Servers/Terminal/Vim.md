@@ -32,7 +32,13 @@
 | **O**       | append (open) a new line above the current line        |
 | **ea**      | insert (append) at the end of the word        |
 
+<h3><b>Cut and Paste</b></h3>
 
 
-
-
+| Command     | Description |
+| ----------- | ----------- |
+| **yy**      | yank(copy) a line |
+| **A**       | p put (paste) the clipboard after the cursor        |
+| **dd**      | cut (delete) cut a line       |
+| **2dd**     | cut (delete) cut 2 lines        |
+| **dw**      | delete (cut) the characters of the word from the cursor position to the start of the next word       |
