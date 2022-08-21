@@ -41,19 +41,8 @@ This repo is a collection of resources associated with the learning roadmap for 
         Bash Scripting
         <br>
         <a href="https://github.com/mjki4hj3/devops-learning-pathway/blob/master/Managing%20Servers/Terminal/Vim.md">Vim</a>
-        <details><summary>System Performance</summary>
-            <ul>
-                <li>nmon</li>
-                <li>iotstat</li>
-                <li>sdar</li>
-                <li>vmstat</li>
-                <li>strace</li>
-                <li>dtrace</li>
-                <li>systemtap</li>
-                <li>uname</li>
-                <li>df</li>
-                <li>history</li>
-            </ul>
+        <br>
+        <a href="https://github.com/mjki4hj3/devops-learning-pathway/blob/master/Managing%20Servers/Terminal/system-performance.md">System Performance</a>
         </details>
         <details><summary>Network</summary>
             <ul>
