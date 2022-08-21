@@ -1,0 +1,16 @@
+<ul>
+    <li>awk</li>
+    <li>sed</li>
+    <li>grep</li>
+    <li>sort</li>
+    <li>uniq</li>
+    <li>cat</li>
+    <li>cut</li>
+    <li>echo</li>
+    <li>fmt</li>
+    <li>tr</li>
+    <li>nl</li>
+    <li>egrep</li>
+    <li>fgrep</li>
+    <li>wc</li>
+</ul>
