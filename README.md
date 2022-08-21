@@ -32,13 +32,14 @@ This repo is a collection of resources associated with the learning roadmap for 
 </details>
 
 
-<details><summary> <h2>Managing Servers</h2> </summary><blockquote>
+<details open><summary> <h2>Managing Servers</h2> </summary><blockquote>
     <details open><summary> <h3>Operating Systems</h3> </summary><blockquote>
         <details><summary>Ubuntu</summary>
         </details>
     </details>
     <details open><summary> <h3>Terminal</h3> </summary><blockquote>
         Bash Scripting
+        <br>
         <a href="https://github.com/mjki4hj3/devops-learning-pathway/blob/master/Managing%20Servers/Terminal/Vim.md">Vim</a>
         <details><summary>System Performance</summary>
             <ul>
