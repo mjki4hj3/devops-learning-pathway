@@ -144,7 +144,7 @@ This repo is a collection of resources associated with the learning roadmap for 
     <details>
         <summary><h4>GCP Devops Pro</h4></summary>
         <br>
-        <a href="">Mock Exam Follow Questions</a>
+        <a href="https://github.com/mjki4hj3/devops-learning-pathway/blob/master/Cloud/GCP/DevOps%20Pro/follow-up-questions.md">Mock Exam Follow Questions</a>
         </details>
     </details>
     <details><summary> <h3>Design Patterns</h3></summary><blockquote>
