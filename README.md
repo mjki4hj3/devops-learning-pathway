@@ -141,6 +141,11 @@ This repo is a collection of resources associated with the learning roadmap for 
     <details><summary> <h3>AWS</h3> </summary><blockquote>
     </details>
     <details><summary> <h3>GCP</h3> </summary><blockquote>
+    <details>
+        <summary><h4>GCP Devops Pro</h4></summary>
+        <br>
+        <a href="">Mock Exam Follow Questions</a>
+        </details>
     </details>
     <details><summary> <h3>Design Patterns</h3></summary><blockquote>
         <a href="http://bit.ly/cloud-arch-patterns">Cloud Architecht Patterns</a>
