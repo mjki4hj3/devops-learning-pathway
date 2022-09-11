@@ -47,8 +47,7 @@ This repo is a collection of resources associated with the learning roadmap for 
         <a href="https://github.com/mjki4hj3/devops-learning-pathway/blob/master/Managing%20Servers/Terminal/process-monitoring.md">Process Monitoring</a>
         </details>
         <h3><a href="https://github.com/mjki4hj3/devops-learning-pathway/blob/master/Managing%20Servers/Network/network-cli.md">Network Tools</a></h3>
-        <details><summary><h3><a href="https://github.com/mjki4hj3/devops-learning-pathway/blob/master/Managing%20Servers/Text%20Manipulation%20Tool/text-manipulation-cli.md">Text Manipulation Tools</a></h3></summary>
-        </details>
+        <h3><a href="https://github.com/mjki4hj3/devops-learning-pathway/blob/master/Managing%20Servers/Text%20Manipulation%20Tool/text-manipulation-cli.md">Text Manipulation Tools</a></h3>
     </details>
 </details>
 
