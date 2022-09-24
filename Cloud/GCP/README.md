@@ -2,13 +2,13 @@
 
 <details><summary> <h2>Section 1. Applying site reliability engineering principles to a service</h2> </summary><blockquote>
     <details><summary><h3>1.1 Balance change, velocity, and reliability of the service:</h3></summary>
-        <ul>
+        <ol>
             <li>Discover SLIs (e.g., availability, latency)</li>
             <li>Define SLOs and understand SLAs</li>
             <li>Agree to consequences of not meeting the error budget</li>
             <li>Construct feedback loops to decide what to build next</li>
             <li>Eliminate toil via automation</li>
-        </ul>
+        </ol>
     </details>
     <details>
     <summary><h3>1.2 Manage service life cycle</h3></summary>
