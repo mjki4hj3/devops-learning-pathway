@@ -102,7 +102,7 @@
         3. Use Metrics Explorer for ad hoc metric analysis
     </details>
     <details>
-    <summary>3.3 Manage Cloud Monitoring platform:</summary>
+    <summary><h3>3.3 Manage Cloud Monitoring platform</h3></summary>
         1. Creating a monitoring dashboard
         2. Filtering and sharing dashboards
         3. Configure third-party alerting in Cloud Monitoring (e.g., PagerDuty, Slack)
