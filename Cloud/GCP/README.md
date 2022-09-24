@@ -144,7 +144,6 @@
         6. TCO considerations (e.g., security, logging, networking)
         7. Consider network pricing
     </details>
-    <details>
 </details>
 
 <details><summary> <h2>Section 5. Managing service incidents</h2> </summary><blockquote>
@@ -166,20 +165,20 @@
         4. Identify alternatives to mitigate issue
     </details>
     <details>
-    <summary>5.3 Mitigate incident impact on users:</summary>
+    <summary><h3>5.3 Mitigate incident impact on users</h3></summary>
         1. Roll back release
         2. Drain / redirect traffic
         3. Turn off experiment
         4. Add capacity
     </details>
     <details>
-    <summary>5.4 Resolve issues with deployments (e.g., Cloud Build, Jenkins)</summary>
+    <summary><h3>5.4 Resolve issues with deployments (e.g., Cloud Build, Jenkins)</h3></summary>
         1. Code change / fix bug
         2. Verify fix
         3. Declare all-clear
     </details>
     <details>
-    <summary>5.5 Document issue in a postmortem:</summary>
+    <summary><h3>5.5 Document issue in a postmortem</h3></summary>
         1. Document root causes
         2. Create and prioritize action items
         3. Communicate postmortem to stakeholders
