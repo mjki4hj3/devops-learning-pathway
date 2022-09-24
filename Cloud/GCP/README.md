@@ -1,6 +1,6 @@
 # Exam Guide
 
-<details><summary> <h2>Section 1. Applying site reliability engineering principles to a service</h2> </summary><blockquote>
+<details open><summary> <h2>Section 1. Applying site reliability engineering principles to a service</h2> </summary><blockquote>
     <details><summary><h3>1.1 Balance change, velocity, and reliability of the service:</h3></summary>
         <ol>
             <li>Discover SLIs (e.g., availability, latency)</li>
@@ -12,66 +12,84 @@
     </details>
     <details>
     <summary><h3>1.2 Manage service life cycle</h3></summary>
-        <li>Manage a service (e.g., introduce a new service, deploy, </li>maintain, and retire it)
-        <li>Plan for capacity (e.g., quotas and limits management)</li>
+        <ol>
+            <li>Manage a service (e.g., introduce a new service, deploy, </li>maintain, and retire it)
+            <li>Plan for capacity (e.g., quotas and limits management)</li>
+        </ol>
     </details>
     <details>
     <summary><h3>1.3 Ensure healthy communication and collaboration for operations</h3></summary>
-        1. Prevent burnout (e.g., set up automation processes to prevent burnout)
-        2. Foster a learning culture
-        3. Foster a culture of blamelessness
+        <ol>
+            <li>Prevent burnout (e.g., set up automation processes to </li>prevent burnout)
+            <li>Foster a learning culture</li>
+            <li>Foster a culture of blamelessness</li>
+        </ol>
     </details>
 </details>
 
-<details><summary> <h2>Section 2. Building and implementing CI/CD pipelines for a service</h2> </summary><blockquote>
+<details open><summary> <h2>Section 2. Building and implementing CI/CD pipelines for a service</h2> </summary><blockquote>
     <details><summary> <h3>2.1 Design CI/CD pipelines:</h3> </summary>
-        1. Creating and storing immutable artifacts with Artifact Registry
-        2. Deployment strategies with Cloud Build and Spinnaker
-        3. Deployment to hybrid and multicloud environments with Anthos, Spinnaker, and Kubernetes
-        4. Artifact versioning strategy with Cloud Build and Artifact Registry
-        5. CI/CD pipeline triggers with Cloud Source Repositories, external SCM, and Pub/Sub
-        6. Testing a new version with Spinnaker
-        7. Configuring deployment processes (e.g., approval flows)
+        <ol>
+            <li>Creating and storing immutable artifacts with Artifact Registry</li>
+            <li>Deployment strategies with Cloud Build and Spinnaker</li>
+            <li>Deployment to hybrid and multicloud environments with Anthos, Spinnaker, and Kubernetes</li>
+            <li>Artifact versioning strategy with Cloud Build and Artifact Registry</li>
+            <li>CI/CD pipeline triggers with Cloud Source Repositories, external SCM, and Pub/Sub</li>
+            <li>Testing a new version with Spinnaker</li>
+            <li>Configuring deployment processes (e.g., approval flows)</li>
+        </ol>
     </details>
     <details>
     <summary><h3>2.2 Implement CI/CD pipelines</h3></summary>
-        1. CI with Cloud Build
-        2. CD with Cloud Build
-        3. Open source tooling (e.g., Jenkins, Spinnaker, GitLab, Concourse)
-        4. Auditing and tracing of deployments (e.g., CSR, Artifact Registry, Cloud Build, Cloud Audit Logs)
+        <ol>
+            <li>CI with Cloud Build</li>
+            <li>CD with Cloud Build</li>
+            <li>Open source tooling (e.g., Jenkins, Spinnaker, GitLab, Concourse)</li>
+            <li>Auditing and tracing of deployments (e.g., CSR, Artifact Registry, Cloud Build, Cloud Audit Logs)</li>
+        </ol>
     </details>
     <details>
     <summary><h3>2.3 Manage configuration and secrets</h3></summary>
-        1. Secure storage methods
-        2. Secret rotation and config changes
+        <ol>
+            <li>Secure storage methods</li>
+            <li>Secret rotation and config changes</li>
+        </ol>
     </details>
     <details>
     <summary><h3>2.4 Manage infrastructure as code</h3></summary>
-        1. Terraform
-        2. Infrastructure code versioning
-        3. Make infrastructure changes safer
-        4. Immutable architecture
+        <ol>
+            <li>Terraform</li>
+            <li>Infrastructure code versioning</li>
+            <li>Make infrastructure changes safer</li>
+            <li>Immutable architecture</li>
+        </ol>
     </details>
     <details>
     <summary><h3>2.5 Deploy CI/CD tooling</h3></summary>
-        1. Centralized tools vs. multiple tools (single vs. multi-tenant)
-        2. Security of CI/CD tooling
+        <ol>
+            <li>Centralized tools vs. multiple tools (single vs. multi-tenant)</li>
+            <li>Security of CI/CD tooling</li>
+        </ol>
     </details>
     <details>
     <summary><h3>2.6 Manage different development environments (e.g., staging, production)</h3></summary>
-        1. Decide on the number of environments and their purpose
-        2. Create environments dynamically per feature branch with GKE
-        3. Local development environments with Docker, Cloud Code, Skaffold
+        <ol>
+            <li>Decide on the number of environments and their purpose</li>
+            <li>Create environments dynamically per feature branch with GKE</li>
+            <li>Local development environments with Docker, Cloud Code, Skaffold</li>
+        </ol>
     </details>
     <details>
     <summary><h3>2.7 Secure the deployment pipeline</h3></summary>
-        1. Vulnerability analysis with Artifact Registry
-        2. Binary Authorization
-        3. IAM policies per environment
+        <ol>
+            <li>Vulnerability analysis with Artifact Registry</li>
+            <li>Binary Authorization</li>
+            <li>IAM policies per environment</li>
+        </ol>
     </details>
 </details>
 
-<details><summary><h2>Section 3. Implementing service monitoring strategies</h2> </summary><blockquote>
+<details open><summary><h2>Section 3. Implementing service monitoring strategies</h2> </summary><blockquote>
     <details><summary> <h3>3.1 Manage application logs:</h3> </summary>
         1. Collecting logs from Compute Engine, GKE with Cloud Logging, Fluentd
         2. Collecting third-party and structured logs with Cloud Logging, Fluentd
@@ -116,73 +134,89 @@
     </details>
 </details>
 
-<details><summary> <h2>Section 4. Optimizing service performance</h2> </summary><blockquote>
+<details open><summary> <h2>Section 4. Optimizing service performance</h2> </summary><blockquote>
     <details><summary> <h3>4.1 Identify service performance issues:</h3> </summary>
-        1. Evaluate and understand user impact
-        2. Utilize Google Cloud’s operations suite to identify cloud resource utilization
-        3. Utilize Cloud Trace and Cloud Profiler to profile performance characteristics
-        4. Interpret service mesh telemetry
-        5. Troubleshoot issues with the image/OS
-        6. Troubleshoot network issues (e.g., VPC flow logs, firewall logs, latency, view network details)
+        <ol>
+            <li>Evaluate and understand user impact</li>
+            <li>Utilize Google Cloud’s operations suite to identify cloud resource utilization</li>
+            <li>Utilize Cloud Trace and Cloud Profiler to profile performance characteristics</li>
+            <li>Interpret service mesh telemetry</li>
+            <li>Troubleshoot issues with the image/OS</li>
+            <li>Troubleshoot network issues (e.g., VPC flow logs, firewall logs, latency, view network details)</li>
+        </ol>
     </details>
     <details>
     <summary><h3>4.2 Debug application code</h3></summary>
-        1. Application instrumentation
-        2. Cloud Debugger
-        3. Cloud Logging
-        4. Cloud Trace
-        5. Debugging distributed applications
-        6. App Engine local development server
-        7. Error Reporting
-        8. Cloud Profiler
+        <ol>
+            <li>Application instrumentation</li>
+            <li>Cloud Debugger</li>
+            <li>Cloud Logging</li>
+            <li>Cloud Trace</li>
+            <li>Debugging distributed applications</li>
+            <li>App Engine local development server</li>
+            <li>Error Reporting</li>
+            <li>Cloud Profiler</li>
+        </ol>
     </details>
     <details>
     <summary><h3>4.3 Optimize resource utilization</h3></summary>
-        1. Identify resource costs
-        2. Identify resource utilization levels
-        3. Develop plan to optimize areas of greatest cost or lowest utilization
-        4. Manage preemptible VMs
-        5. Utilize committed use discounts where appropriate
-        6. TCO considerations (e.g., security, logging, networking)
-        7. Consider network pricing
+        <ol>
+            <li>Identify resource costs</li>
+            <li>Identify resource utilization levels</li>
+            <li>Develop plan to optimize areas of greatest cost or lowest utilization</li>
+            <li>Manage preemptible VMs</li>
+            <li>Utilize committed use discounts where appropriate</li>
+            <li>TCO considerations (e.g., security, logging, networking)</li>
+            <li>Consider network pricing</li>
+        </ol>
     </details>
 </details>
 
-<details><summary> <h2>Section 5. Managing service incidents</h2> </summary><blockquote>
+<details open><summary> <h2>Section 5. Managing service incidents</h2> </summary><blockquote>
     <details><summary> <h3>5.1 Coordinate roles and implement communication channels during a service incident:</h3> </summary>
-        1. Define roles (incident commander, communication lead, operations lead)
-        2. Handle requests for impact assessment
-        3. Provide regular status updates, internal and external
-        4. Record major changes in incident state (e.g., When mitigated? When is all clear?)
-        5. Establish communications channels (e.g., email, IRC, Hangouts, Slack, phone)
-        6. Scaling response team and delegation
-        7. Avoid exhaustion / burnout
-        8. Rotate / hand over roles
+        <ol>
+            <li>Define roles (incident commander, communication lead, operations lead)</li>
+            <li>Handle requests for impact assessment</li>
+            <li>Provide regular status updates, internal and external</li>
+            <li>Record major changes in incident state (e.g., When mitigated? When is all clear?)</li>
+            <li>Establish communications channels (e.g., email, IRC, Hangouts, Slack, phone)</li>
+            <li>Scaling response team and delegation</li>
+            <li>Avoid exhaustion / burnout</li>
+            <li>Rotate / hand over roles</li>
+        </ol>
     </details>
     <details>
     <summary><h3>5.2 Investigate incident symptoms impacting users:</h3></summary>
-        1. Identify probable causes of service failure
-        2. Evaluate symptoms against probable causes; rank probability of cause based on observed
-        3. Perform investigation to isolate most likely actual cause
-        4. Identify alternatives to mitigate issue
+        <ol>
+            <li>Identify probable causes of service failure</li>
+            <li>Evaluate symptoms against probable causes; rank probability of cause based on observed</li>
+            <li>Perform investigation to isolate most likely actual cause</li>
+            <li>Identify alternatives to mitigate issue</li>
+        </ol>
     </details>
     <details>
     <summary><h3>5.3 Mitigate incident impact on users</h3></summary>
-        1. Roll back release
-        2. Drain / redirect traffic
-        3. Turn off experiment
-        4. Add capacity
+        <ol>
+            <li>Roll back release</li>
+            <li>Drain / redirect traffic</li>
+            <li>Turn off experiment</li>
+            <li>Add capacity</li>
+        </ol>
     </details>
     <details>
     <summary><h3>5.4 Resolve issues with deployments (e.g., Cloud Build, Jenkins)</h3></summary>
-        1. Code change / fix bug
-        2. Verify fix
-        3. Declare all-clear
+        <ol>
+            <li>Code change / fix bug</li>
+            <li>Verify fix</li>
+            <li>Declare all-clear</li>
+        </ol>
     </details>
     <details>
     <summary><h3>5.5 Document issue in a postmortem</h3></summary>
-        1. Document root causes
-        2. Create and prioritize action items
-        3. Communicate postmortem to stakeholders
+        <ol>
+            <li>Document root causes</li>
+            <li>Create and prioritize action items</li>
+            <li>Communicate postmortem to stakeholders</li>
+        </ol>
     </details>   
 </details>
