@@ -32,51 +32,51 @@
         7. Configuring deployment processes (e.g., approval flows)
     </details>
     <details>
-    <summary>2.2 Implement CI/CD pipelines:</summary>
+    <summary><h3>2.2 Implement CI/CD pipelines</h3></summary>
         1. CI with Cloud Build
         2. CD with Cloud Build
         3. Open source tooling (e.g., Jenkins, Spinnaker, GitLab, Concourse)
         4. Auditing and tracing of deployments (e.g., CSR, Artifact Registry, Cloud Build, Cloud Audit Logs)
     </details>
     <details>
-    <summary>2.3 Manage configuration and secrets:</summary>
+    <summary><h3>2.3 Manage configuration and secrets</h3></summary>
         1. Secure storage methods
         2. Secret rotation and config changes
     </details>
     <details>
-    <summary>2.4 Manage infrastructure as code:</summary>
+    <summary><h3>2.4 Manage infrastructure as code</h3></summary>
         1. Terraform
         2. Infrastructure code versioning
         3. Make infrastructure changes safer
         4. Immutable architecture
     </details>
     <details>
-    <summary>2.5 Deploy CI/CD tooling:</summary>
+    <summary><h3>2.5 Deploy CI/CD tooling</h3></summary>
         1. Centralized tools vs. multiple tools (single vs. multi-tenant)
         2. Security of CI/CD tooling
     </details>
     <details>
-    <summary>2.6 Manage different development environments (e.g., staging, production):</summary>
+    <summary><h3>2.6 Manage different development environments (e.g., staging, production)</h3></summary>
         1. Decide on the number of environments and their purpose
         2. Create environments dynamically per feature branch with GKE
         3. Local development environments with Docker, Cloud Code, Skaffold
     </details>
     <details>
-    <summary>2.7 Secure the deployment pipeline:</summary>
+    <summary><h3>2.7 Secure the deployment pipeline</h3></summary>
         1. Vulnerability analysis with Artifact Registry
         2. Binary Authorization
         3. IAM policies per environment
     </details>
 </details>
 
-<details><summary> <h2>Section 3. Implementing service monitoring strategies</h2> </summary><blockquote>
+<details><summary><h2>Section 3. Implementing service monitoring strategies</h2> </summary><blockquote>
     <details><summary> <h3>3.1 Manage application logs:</h3> </summary>
         1. Collecting logs from Compute Engine, GKE with Cloud Logging, Fluentd
         2. Collecting third-party and structured logs with Cloud Logging, Fluentd
         3. Sending application logs directly to the Cloud Logging API
     </details>
     <details>
-    <summary>3.2 Manage application metrics with Cloud Monitoring:</summary>
+    <summary><h3>3.2 Manage application metrics with Cloud Monitoring</h3></summary>
         1. Collecting metrics from Compute Engine
         2. Collecting GKE/Kubernetes metrics
         3. Use Metrics Explorer for ad hoc metric analysis
@@ -94,7 +94,7 @@
         9. Design Cloud Monitoring metrics scopes
     </details>
     <details>
-    <summary>3.4 Manage Cloud Logging platform:</summary>
+    <summary><h3>3.4 Manage Cloud Logging platform</h3></summary>
         1. Enabling data access logs (e.g., Cloud Audit Logs)
         2. Enabling VPC flow logs
         3. Viewing logs in the Google Cloud Console
@@ -107,7 +107,7 @@
         10. Sending logs to an external logging platform
     </details>
     <details>
-    <summary>3.5 Implement logging and monitoring access controls:</summary>
+    <summary><h3>3.5 Implement logging and monitoring access controls</h3></summary>
         1. Set ACL to restrict access to audit logs with IAM, Cloud Logging
         2. Set ACL to restrict export configuration with IAM, Cloud Logging
         3. Set ACL to allow metric writing for custom metrics with IAM, Cloud Monitoring
@@ -124,7 +124,7 @@
         6. Troubleshoot network issues (e.g., VPC flow logs, firewall logs, latency, view network details)
     </details>
     <details>
-    <summary>4.2 Debug application code:</summary>
+    <summary><h3>4.2 Debug application code</h3></summary>
         1. Application instrumentation
         2. Cloud Debugger
         3. Cloud Logging
@@ -135,7 +135,7 @@
         8. Cloud Profiler
     </details>
     <details>
-    <summary>4.3 Optimize resource utilization:</summary>
+    <summary><h3>4.3 Optimize resource utilization</h3></summary>
         1. Identify resource costs
         2. Identify resource utilization levels
         3. Develop plan to optimize areas of greatest cost or lowest utilization
