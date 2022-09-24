@@ -91,46 +91,56 @@
 
 <details open><summary><h2>Section 3. Implementing service monitoring strategies</h2> </summary><blockquote>
     <details><summary> <h3>3.1 Manage application logs:</h3> </summary>
-        1. Collecting logs from Compute Engine, GKE with Cloud Logging, Fluentd
-        2. Collecting third-party and structured logs with Cloud Logging, Fluentd
-        3. Sending application logs directly to the Cloud Logging API
+        <ol>
+            <li>Collecting logs from Compute Engine, GKE with Cloud Logging, Fluentd</li>
+            <li>Collecting third-party and structured logs with Cloud Logging, Fluentd</li>
+            <li>Sending application logs directly to the Cloud Logging API</li>
+        </ol>
     </details>
     <details>
     <summary><h3>3.2 Manage application metrics with Cloud Monitoring</h3></summary>
-        1. Collecting metrics from Compute Engine
-        2. Collecting GKE/Kubernetes metrics
-        3. Use Metrics Explorer for ad hoc metric analysis
+        <ol>
+            <li>Collecting metrics from Compute Engine</li>
+            <li>Collecting GKE/Kubernetes metrics</li>
+            <li>Use Metrics Explorer for ad hoc metric analysis</li>
+        </ol>
     </details>
     <details>
     <summary><h3>3.3 Manage Cloud Monitoring platform</h3></summary>
-        1. Creating a monitoring dashboard
-        2. Filtering and sharing dashboards
-        3. Configure third-party alerting in Cloud Monitoring (e.g., PagerDuty, Slack)
-        4. Define alerting policies based on SLIs with Cloud Monitoring
-        5. Automate alerting policy definition with Terraform
-        6. Implementing SLO monitoring and alerting with Cloud Monitoring
-        7. Understand Cloud Monitoring integrations (e.g., Grafana, BigQuery)
-        8. Using SIEM tools to analyze audit/flow logs (e.g., Splunk, Datadog)
-        9. Design Cloud Monitoring metrics scopes
+        <ol>
+            <li>Creating a monitoring dashboard</li>
+            <li>Filtering and sharing dashboards</li>
+            <li>Configure third-party alerting in Cloud Monitoring (e.g., PagerDuty, Slack)</li>
+            <li>Define alerting policies based on SLIs with Cloud Monitoring</li>
+            <li>Automate alerting policy definition with Terraform</li>
+            <li>Implementing SLO monitoring and alerting with Cloud Monitoring</li>
+            <li>Understand Cloud Monitoring integrations (e.g., Grafana, BigQuery)</li>
+            <li>Using SIEM tools to analyze audit/flow logs (e.g., Splunk, Datadog)</li>
+            <li>Design Cloud Monitoring metrics scopes</li>
+        </ol>
     </details>
     <details>
     <summary><h3>3.4 Manage Cloud Logging platform</h3></summary>
-        1. Enabling data access logs (e.g., Cloud Audit Logs)
-        2. Enabling VPC flow logs
-        3. Viewing logs in the Google Cloud Console
-        4. Using basic vs. advanced logging filters
-        5. Implementing logs-based metrics
-        6. Understanding the logging exclusion vs. logging export
-        7. Selecting the options for logging export
-        8. Implementing a project-level / org-level export
-        9. Viewing export logs in Cloud Storage and BigQuery
-        10. Sending logs to an external logging platform
+        <ol>
+            <li>Enabling data access logs (e.g., Cloud Audit Logs)</li>
+            <li>Enabling VPC flow logs</li>
+            <li>Viewing logs in the Google Cloud Console</li>
+            <li>Using basic vs. advanced logging filters</li>
+            <li>Implementing logs-based metrics</li>
+            <li>Understanding the logging exclusion vs. logging export</li>
+            <li>Selecting the options for logging export</li>
+            <li>Implementing a project-level / org-level export</li>
+            <li>Viewing export logs in Cloud Storage and BigQuery</li>
+            <li>Sending logs to an external logging platform</li>
+        </ol>
     </details>
     <details>
     <summary><h3>3.5 Implement logging and monitoring access controls</h3></summary>
-        1. Set ACL to restrict access to audit logs with IAM, Cloud Logging
-        2. Set ACL to restrict export configuration with IAM, Cloud Logging
-        3. Set ACL to allow metric writing for custom metrics with IAM, Cloud Monitoring
+        <ol>
+            <li>Set ACL to restrict access to audit logs with IAM, Cloud Logging</li>
+            <li>Set ACL to restrict export configuration with IAM, Cloud Logging</li>
+            <li>Set ACL to allow metric writing for custom metrics with IAM, Cloud Monitoring</li>
+        </ol>
     </details>
 </details>
 
