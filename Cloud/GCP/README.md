@@ -1,7 +1,7 @@
 # Exam Guide
 
 <details><summary> <h2>Section 1. Applying site reliability engineering principles to a service</h2> </summary><blockquote>
-    <details><summary> <h3>1.1 Balance change, velocity, and reliability of the service:</h3> </summary>
+    <details><summary><h3>1.1 Balance change, velocity, and reliability of the service:</h3></summary>
         1. Discover SLIs (e.g., availability, latency)
         2. Define SLOs and understand SLAs
         3. Agree to consequences of not meeting the error budget
@@ -9,12 +9,12 @@
         5. Eliminate toil via automation
     </details>
     <details>
-    <summary>1.2 Manage service life cycle:</summary>
+    <summary><h3>1.2 Manage service life cycle</h3></summary>
         1. Manage a service (e.g., introduce a new service, deploy, maintain, and retire it)
         2. Plan for capacity (e.g., quotas and limits management)
     </details>
     <details>
-    <summary>1.3 Ensure healthy communication and collaboration for operations:</summary>
+    <summary><h3>1.3 Ensure healthy communication and collaboration for operations</h3></summary>
         1. Prevent burnout (e.g., set up automation processes to prevent burnout)
         2. Foster a learning culture
         3. Foster a culture of blamelessness
