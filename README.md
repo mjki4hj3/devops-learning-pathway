@@ -124,7 +124,7 @@ This repo is a collection of resources associated with the learning roadmap for 
         <details><summary> <h3>Grafana</h3> </summary><blockquote>
         </details>
     </details>
-    <details><summary> <h3>Infrastructure Monitoring</h3> </summary><blockquote>
+    <details><summary> <h3>Application Monitoring</h3> </summary><blockquote>
         <details><summary> <h3>Jaeger</h3> </summary><blockquote>
         </details>
         <details><summary> <h3>New Relic</h3> </summary><blockquote>

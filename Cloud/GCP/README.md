@@ -13,14 +13,14 @@
     <details>
     <summary><h3>1.2 Manage service life cycle</h3></summary>
         <ol>
-            <li>Manage a service (e.g., introduce a new service, deploy, </li>maintain, and retire it)
+            <li>Manage a service (e.g., introduce a new service, deploy, maintain, and retire it)</li>
             <li>Plan for capacity (e.g., quotas and limits management)</li>
         </ol>
     </details>
     <details>
     <summary><h3>1.3 Ensure healthy communication and collaboration for operations</h3></summary>
         <ol>
-            <li>Prevent burnout (e.g., set up automation processes to </li>prevent burnout)
+            <li>Prevent burnout (e.g., set up automation processes to prevent burnout)</li>
             <li>Foster a learning culture</li>
             <li>Foster a culture of blamelessness</li>
         </ol>
@@ -183,7 +183,7 @@
 </details>
 
 <details open><summary> <h2>Section 5. Managing service incidents</h2> </summary><blockquote>
-    <details><summary> <h3>5.1 Coordinate roles and implement communication channels during a service incident:</h3> </summary>
+    <details><summary> <h3>5.1 Coordinate roles and implement communication channels during a service incident</h3> </summary>
         <ol>
             <li>Define roles (incident commander, communication lead, operations lead)</li>
             <li>Handle requests for impact assessment</li>
@@ -196,7 +196,7 @@
         </ol>
     </details>
     <details>
-    <summary><h3>5.2 Investigate incident symptoms impacting users:</h3></summary>
+    <summary><h3>5.2 Investigate incident symptoms impacting users</h3></summary>
         <ol>
             <li>Identify probable causes of service failure</li>
             <li>Evaluate symptoms against probable causes; rank probability of cause based on observed</li>
