@@ -25,7 +25,7 @@ This repo is a collection of resources associated with the learning roadmap for 
     </details>
     <details><summary> <h3>Sockets</h3> </summary><blockquote>
     </details>
-    <details><summary> <h3>POSIX Basics</h3> </summary><blockquote>
+    <details><summary> <h3><a href="https://www.baeldung.com/linux/posix">POSIX Basics</a></h3> </summary><blockquote>
     </details>
     <details><summary> <h3>Network Concepts</h3> </summary><blockquote>
     </details>
